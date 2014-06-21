@@ -4,11 +4,11 @@
 TARGET_SCREEN_HEIGHT := 960
 TARGET_SCREEN_WIDTH := 540
 
-# Inherit some common Carbon stuff.
-$(call inherit-product, vendor/carbon/config/common_phone.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/lge/p769/full_p769.mk)
+
+# Inherit some common Carbon stuff.
+$(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := p769
