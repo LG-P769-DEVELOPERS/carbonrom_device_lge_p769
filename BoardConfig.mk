@@ -25,7 +25,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 # Try to build the kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_p769_defconfig
 #TARGET_KERNEL_SOURCE := kernel/lge/lge-kernel-omap4
-TARGET_KERNEL_SOURCE := kernel/lge/omap4-common
+TARGET_KERNEL_SOURCE := kernel/lge/lge-kernel-p769-ocuv
 
 # toolchain for kernel, must be in prebuilt\linux-x86\toolchain\
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7
